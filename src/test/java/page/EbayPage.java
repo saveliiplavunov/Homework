@@ -17,7 +17,7 @@ public class EbayPage {
 		
 		PageFactory.initElements(Driver.getDriver(), this);
 	}
-//	private WebDriver driver; //initializing driver 
+
 	
 	//collecting WebElement
 	@FindBy(xpath="//input[@id='gh-ac']")
